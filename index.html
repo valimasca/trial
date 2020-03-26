@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Merienda|Permanent+Marker|Righteous" rel="stylesheet">
+
+    <title>Roman Trivia</title>
+</head>
+
+<body>
+    <div id="container">
+        <header>
+			<h1>Ancient Roman Trivia</h1>
+			<div id="left-images">
+				<img src="RomanSaber.png" id="soldierPic">
+			</div>
+        </header>
+        <section>
+            <h2 id="displayTime"></h2>
+
+            <form name="quizForm" onsubmit="return submitAnswers()">
+                <button id="btnStart">Start</button>
+            </form>
+
+            <div id="results"></div>
+        </section>
+	</div>
+	
+	
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
